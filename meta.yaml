@@ -1,0 +1,22 @@
+package:
+  name: abxpy
+  version: "0.3.0"
+
+source:
+  path: . 
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - cython
+    - numpy
+  run:
+    - python
+    - cython
+    - numpy
+    - scipy
+    - h5py
+    - pandas
+    - h5features
+
